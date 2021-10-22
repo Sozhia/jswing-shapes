@@ -212,6 +212,12 @@ public class Main {
 		lblTriangleArea.setBounds(10, 67, 79, 14);
 		trianglePanel.add(lblTriangleArea);
 		
+		/**
+		 * Generar el objeto previamente al seleccionar la figura
+		 * y pasarselo a la funcion ejecutada llamada del actionP.
+		 * Aplicar patron estrategia a este proyecto.
+		 * 
+		 */
 		JButton btnShapeGenerator = new JButton("Generate Shape");
 		btnShapeGenerator.setBounds(10, 407, 684, 23);
 		btnShapeGenerator.addActionListener(new ActionListener() {
